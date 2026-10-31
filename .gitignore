@@ -1,0 +1,23 @@
+# AWS credentials and private keys
+*.pem
+*.ppk
+.aws/
+credentials
+config
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
